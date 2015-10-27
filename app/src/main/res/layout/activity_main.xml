@@ -3,9 +3,34 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/login_image"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <!--<TextView android:text="@string/hello_world" android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content" />-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G+"
+        android:background="#dd4b39"
+        android:id="@+id/gp_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="twitter"
+        android:background="#3b5998"
+        android:id="@+id/tw_button"
+        android:layout_below="@+id/gp_button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fb"
+        android:background="#0084b4"
+        android:id="@+id/fb_button"
+        android:layout_below="@+id/tw_button"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
