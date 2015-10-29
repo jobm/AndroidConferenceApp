@@ -19,7 +19,10 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-
+        </activity>
+        <activity
+            android:name=".EventActivity"
+            android:label="Conference Events">
         </activity>
     </application>
 

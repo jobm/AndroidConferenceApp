@@ -7,8 +7,6 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.TextView;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         final Button login = (Button)findViewById(R.id.login);
         login.setOnClickListener(new View.OnClickListener(){
               public void onClick(View view){
-                  startActivity(new Intent("android.intent.action.EventActivity"));
+                  startActivity(new Intent(getBaseContext(),EventActivity.class));
               }
         });
     }
