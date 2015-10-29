@@ -1,9 +1,13 @@
 package com.job.conferenceapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final Button login = (Button)findViewById(R.id.login);
+        login.setOnClickListener(new View.OnClickListener(){
+              public void onClick(View view){
+                  startActivity(new Intent("android.intent.action.EventActivity"));
+              }
+        });
     }
 
     @Override
