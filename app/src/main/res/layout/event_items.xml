@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <GridView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/gridView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/splash_screen"
+        android:layout_marginLeft="8dp" />
+
+    <GridView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/gridView2"
+        android:layout_alignTop="@+id/gridView"
+        android:layout_alignLeft="@+id/gridView4"
+        android:layout_alignStart="@+id/gridView4"
+        android:background="@drawable/splash_screen"
+        android:layout_marginRight="8dp" />
+
+    <GridView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/gridView3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/splash_screen"
+        android:layout_marginLeft="8dp" />
+
+    <GridView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/gridView4"
+        android:layout_alignTop="@+id/gridView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/splash_screen"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"/>
+    </RelativeLayout>
