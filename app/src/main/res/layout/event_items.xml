@@ -3,10 +3,10 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-    <GridView
+    <GridLayout
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/gridView"
+        android:id="@+id/speakers"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -14,37 +14,33 @@
         android:background="@drawable/splash_screen"
         android:layout_marginLeft="8dp" />
 
-    <GridView
+    <GridLayout
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/gridView2"
-        android:layout_alignTop="@+id/gridView"
-        android:layout_alignLeft="@+id/gridView4"
-        android:layout_alignStart="@+id/gridView4"
+        android:id="@+id/twitterfeed"
         android:background="@drawable/splash_screen"
-        android:layout_marginRight="8dp" />
+        android:layout_alignTop="@+id/agenda"
+        android:layout_alignLeft="@+id/speakers"
+        android:layout_alignStart="@+id/speakers" />
 
-    <GridView
+    <GridLayout
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/gridView3"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="85dp"
+        android:id="@+id/agenda"
         android:background="@drawable/splash_screen"
-        android:layout_marginLeft="8dp" />
+        android:layout_below="@+id/info"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignStart="@+id/info"
+        android:layout_marginTop="12dp"/>
 
-    <GridView
+    <GridLayout
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:id="@+id/gridView4"
-        android:layout_alignTop="@+id/gridView3"
+        android:id="@+id/info"
+        android:background="@drawable/splash_screen"
+        android:layout_alignTop="@+id/speakers"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/splash_screen"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="0dp"/>
+
+        />
     </RelativeLayout>
