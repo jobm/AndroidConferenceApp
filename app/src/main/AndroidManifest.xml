@@ -24,10 +24,10 @@
             android:name=".EventActivity"
             android:label="Conference Events">
         </activity>
-        <!--<activity-->
-            <!--android:name=".EventsItemsTab"-->
-            <!--android:label="Conference Menu">-->
-        <!--</activity>-->
+        <activity
+            android:name=".EventsItemsTab"
+            android:label="Conference Menu">
+        </activity>
     </application>
 
 </manifest>

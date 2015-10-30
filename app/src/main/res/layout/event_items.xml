@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     >
     <GridLayout
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="150dp"
         android:id="@+id/speakers"
         android:layout_alignParentTop="true"
@@ -15,7 +15,7 @@
         android:layout_marginLeft="8dp" />
 
     <GridLayout
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="150dp"
         android:id="@+id/twitterfeed"
         android:background="@drawable/splash_screen"
@@ -24,17 +24,17 @@
         android:layout_alignStart="@+id/speakers" />
 
     <GridLayout
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="150dp"
         android:id="@+id/agenda"
         android:background="@drawable/splash_screen"
         android:layout_below="@+id/info"
         android:layout_alignLeft="@+id/info"
         android:layout_alignStart="@+id/info"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="60dp"/>
 
     <GridLayout
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="150dp"
         android:id="@+id/info"
         android:background="@drawable/splash_screen"
@@ -42,5 +42,5 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
 
-        />
+        android:layout_marginRight="12dp" />
     </RelativeLayout>
