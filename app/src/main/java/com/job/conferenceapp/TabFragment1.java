@@ -2,12 +2,14 @@ package com.job.conferenceapp;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 /**import android.content.Intent;
  * Created by Job on 10/29/2015.
  */
+
 public class TabFragment1 extends Fragment {
 
     @Override
