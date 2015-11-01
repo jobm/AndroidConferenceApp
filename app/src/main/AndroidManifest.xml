@@ -27,7 +27,9 @@
         <activity
             android:name=".EventsItemsTab"
             android:label="Conference Menu">
+
         </activity>
+
     </application>
 
 </manifest>

@@ -40,9 +40,9 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.SpeakerViewHolder>
 
     @Override
     public SpeakerViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.tab_fragment_1, viewGroup, false);
-        SpeakerViewHolder speakervh = new SpeakerViewHolder(v);
-        return speakervh;
+        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card_item, viewGroup, false);
+        SpeakerViewHolder svh = new SpeakerViewHolder(v);
+        return svh;
     }
 
 
