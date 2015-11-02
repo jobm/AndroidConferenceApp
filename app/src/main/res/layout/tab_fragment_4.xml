@@ -1,15 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:rowCount="6"
+    android:paddingTop="100dp">
 
     <TextView
-        android:id="@+id/textView"
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="WIFI"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_row="0"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Tab 4"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:text="Venue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_row="1"
+        android:layout_gravity="center_horizontal" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_row="2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transport"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_row="4"
+        android:layout_columnSpan="1"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal" />
+
+</GridLayout>
